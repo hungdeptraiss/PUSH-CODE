@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 3</title>
+    <style>
+          .container {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        
+        select {
+            margin-right: 1000px;
+            padding: 5px;
+        }
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="POST" method="" enctype="multipart/form-data"></form>
+    <div class="container"> 
+    <select id="chon" name="chon">
+      <option value="15"selected="15">15</option>
+      <option value="14">14</option>
+      <option value="13">13</option>
+      <option value="12">12</option>
+      <option value="11">11</option>
+      <option value="10">10</option>
+      <option value="9">9</option>
+      <option value="8">8</option>
+      <option value="7">7</option>
+      <option value="6">6</option>
+      <option value="5">5</option>
+      <option value="4">4</option>
+      <option value="3">3</option>
+      <option value="2">2</option>
+      <option value="1">1</option>
+    </select>
+    <form>
+        <input type="text" name="text" id="text" placeholder="Nhap tieu de tim kiem==> An enter">
+    </form>
+    <button>+ Thêm mới</button>
+</div>
+<table width="100%" border="1 px">
+    <tr>
+        <th colspan="2" rowspan="1">STT</th>
+        <th>Ten Dac Tinh Ky Thuat</th>
+        <th>Ngay Sua</th>
+        <th>Thu Tu</th>
+        <th>Trang Thai</th>
+        <th>Tac Vu</th>
+    </tr>
+        <tr>
+            <td colspan="2">1</td>
+            <td>Dac Trung</td>
+            <td align="center">20/7/2020</td>
+            <td align="center">1</td>
+            <td align="center" style="color: green;">Hoat Dong</td>
+            <td class="actions">
+                <button class="info">i</button>
+                <button class="edit">✎</button>
+                <button class="delete">🗑</button>
+            </td>
+            <tr>
+                <td colspan="2">2</td>
+                <td>Thong So</td>
+                <td align="center">20/7/2020</td>
+                <td align="center">2</td>
+                <td align="center" style="color: green;">Hoat Dong</td>
+                <td class="actions">
+                    <button class="info">i</button>
+                    <button class="edit">✎</button>
+                    <button class="delete">🗑</button>
+                </td>
+            <tr>
+                    <td colspan="2">3</td>
+                    <td>Bao Quan</td>
+                 
+                    <td align="center">20/7/2020</td>
+                    <td align="center">3</td>
+                    <td align="center" style="color: green;">Hoat Dong</td>
+                    <td class="actions">
+                        <button class="info">i</button>
+                        <button class="edit">✎</button>
+                        <button class="delete">🗑</button>
+                    </td>
+                    <tr>
+                        <td colspan="2">4</td>
+                        <td>Bao Hanh</td>
+       
+                        <td align="center">20/7/2020</td>
+                        <td align="center">4</td>
+                        <td align="center" style="color: green;">Hoat Dong</td>
+                        <td class="actions">
+                            <button class="info">i</button>
+                            <button class="edit">✎</button>
+                            <button class="delete">🗑</button>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">5</td>
+                            <td>Cam Ket</td>
+           
+                            <td align="center">20/7/2020</td>
+                            <td align="center">5</td>
+                            <td align="center" style="color: green;">Hoat Dong</td>
+                            <td class="actions">
+                                <button class="info">i</button>
+                                <button class="edit">✎</button>
+                                <button class="delete">🗑</button>
+                            </td>
+                            <tr>
+                                <td colspan="7" rowspan="1">
+                                    <p>Tổng số có: <b>5</b> danh mục</p>
+                                </td>
+                            </tr>
+    </table>
+  </body>
+</html>

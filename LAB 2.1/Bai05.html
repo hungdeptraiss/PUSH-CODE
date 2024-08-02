@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            max-width: 900px;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 20px;
+            vertical-align: top;
+        }
+        .form-container {
+            max-width: 100%;
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container .button-container {
+            text-align: right; /* Căn chỉnh nút sang bên phải */
+        }
+        .form-container button {
+            padding: 10px 20px;
+            background-color: #4c00ff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+        .image-container {
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="form-container">
+                    <h2>Liên hệ ngay với chuyên gia của chúng tôi</h2>
+                    <form action="POST" method="POST" enctype="multipart/form-data">
+                        <input type="text" name="name" placeholder="Họ tên" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="tel" name="phone" placeholder="Số điện thoại" required>
+                        <input type="text" name="address" placeholder="Địa chỉ">
+                        <textarea name="message" placeholder="Nội dung" rows="5" required></textarea>
+                        <div class="button-container">
+                            <button type="submit">Gửi thông tin</button>
+                        </div>
+                    </form>
+                </td>
+                <td class="image-container">
+                    <img src="Ảnh chụp Màn hình 2024-08-02 lúc 12.44.14.png" alt="Doctor Image">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
